@@ -1,0 +1,66 @@
+<project>
+ <properties windowWidth="0" osx_domain="giderosmobile.com" logicalWidth="320" osx_signingId="" retinaDisplay="0" win_domain="giderosmobile.com" touchToMouse="1" mouseTouchOrder="0" html5_symbols="0" encryptCode="0" ios_bundle="com.yourdomain." version_code="1" html5_host="" win_org="GiderosMobile" splashScaleMode="0" html5_mem="256" html5_fbload="100" build_number="1" html5_fbinstant="0" tv_icon="" fps="60" exportMode="0" logicalHeight="480" iosDevice="0" disableSplash="1" backgroundColor="#ffffff" android_template="0" winrt_org="GiderosMobile" html5_pack="0" packageName="com.yourdomain.yourapp" app_icon="" html5_wasm="0" vsync="0" app_name="" osx_bundle="com.yourdomain." osx_org="GiderosMobile" scaleMode="0" osx_category="5" mouseToTouch="1" windowHeight="0" version="1.0" winrt_package="com.yourdomain.yourapp" osx_installerId="" encryptAssets="0" orientation="1" autorotation="0" architecture="0" splash_v_image="" splash_h_image="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="Classes">
+  <file source="classes/AceSlide.lua"/>
+  <file source="classes/GiderosCodingEasy.lua"/>
+  <file source="classes/Music.lua"/>
+  <file source="classes/Popup.lua"/>
+  <file source="classes/Sounds.lua"/>
+  <file source="classes/TextWrap.lua"/>
+  <file source="classes/View.lua"/>
+  <file source="classes/button.lua"/>
+  <file source="classes/dataSaver.lua"/>
+  <file source="classes/easing.lua"/>
+  <file source="classes/gtween.lua"/>
+  <file source="classes/scenemanager.lua"/>
+ </folder>
+ <folder name="Fonts">
+  <file source="Assets/Fonts/kongtext.ttf"/>
+  <file name="assets/Fonts/kongtext.ttf"/>
+ </folder>
+ <folder name="Images">
+  <file name="assets/Images/backBit.png"/>
+  <file source="DebugArt/debug_bullet.png"/>
+  <file source="DebugArt/debug_char.png"/>
+  <file source="DebugArt/debug_enemy.png"/>
+  <file source="DebugArt/debug_grass.png"/>
+  <file source="DebugArt/debug_portal.png"/>
+  <file source="DebugArt/debug_tower.png"/>
+  <file source="DebugArt/debug_wall.png"/>
+  <file name="assets/Images/healthBit.png"/>
+  <file source="Assets/Images/joystick1.png"/>
+  <file name="assets/Images/joystick1.png"/>
+  <file source="Assets/Images/panou.png"/>
+  <file name="assets/Images/panou.png"/>
+ </folder>
+ <folder name="Sounds"/>
+ <folder name="Textures"/>
+ <file source="bullet.lua"/>
+ <file source="config.lua"/>
+ <file source="global.lua"/>
+ <file source="helpFunc.lua"/>
+ <file source="main.lua"/>
+ <file source="matrici.lua"/>
+ <file source="notification.lua"/>
+ <file source="options.lua"/>
+ <file source="pathfinding.lua"/>
+ <file source="testPhysics.lua"/>
+ <dependency from="bullet.lua" to="config.lua"/>
+ <dependency from="config.lua" to="classes/gtween.lua"/>
+ <dependency from="config.lua" to="classes/Music.lua"/>
+ <dependency from="config.lua" to="classes/GiderosCodingEasy.lua"/>
+ <dependency from="config.lua" to="classes/dataSaver.lua"/>
+ <dependency from="config.lua" to="classes/easing.lua"/>
+ <dependency from="config.lua" to="classes/button.lua"/>
+ <dependency from="config.lua" to="classes/AceSlide.lua"/>
+ <dependency from="config.lua" to="classes/View.lua"/>
+ <dependency from="config.lua" to="classes/TextWrap.lua"/>
+ <dependency from="config.lua" to="classes/Sounds.lua"/>
+ <dependency from="config.lua" to="classes/Popup.lua"/>
+ <dependency from="config.lua" to="classes/scenemanager.lua"/>
+ <dependency from="testPhysics.lua" to="config.lua"/>
+</project>
